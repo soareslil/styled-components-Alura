@@ -9,7 +9,7 @@ export const Box = styled.div`
 display: flex;
 flex-direction: column;
 justify-content: space-between;
-background-color: white;
+background-color: ${ ({theme}) => theme.inside };
 border-radius: 5px;
 box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.04);
 padding: 20px;
@@ -20,11 +20,14 @@ width: 95%;
 margin: 5px;
 `;
 
+
+//color: texto vermais
+//backgroundcolor: cor dentro do botao
 export const Botao = styled.button`
 margin: 15px auto 0px auto;
 display: block;
 border-radius: 20px;
-background-color: lightblue;
+background-color: ${ ({theme}) => theme.body };
 border: none;
 color: white;
 font-weight: 600;
@@ -33,8 +36,10 @@ padding: 8px 20px;
 cursor: pointer;
 `;
 
+
+//$$
 export const Detalhe = styled.span`
-color: lightblue;
+color: ${ ({theme}) => theme.text };
 font-size: 24px;
 `;
 

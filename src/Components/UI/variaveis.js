@@ -1,10 +1,10 @@
-export const corPrimaria = 'lightblue';
+export const corPrimaria = '#A69BBF';
 
-export const fundoClaro = '#f1f1f1';
-export const conteudoClaro = 'white';
+export const fundoClaro = '#EBDEF0';
+export const conteudoClaro = '#F4ECF7';
 export const textoFundoClaro = "gray";
 
 
-export const fundoEscuro = "#363537";
-export const conteudoEscuro = "#5c5b5e";
-export const textoFundoEscuro = "FAFAFA";
+export const fundoEscuro = "#D5D8DC";
+export const conteudoEscuro = "#EAEDED";
+export const textoFundoEscuro = "#2D2C2E";
